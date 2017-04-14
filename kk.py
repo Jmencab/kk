@@ -6,8 +6,7 @@ num_file = open(filename, 'r')
 numlist = []
 for line in num_file:
 	numlist.append(int(line.split()[0]))
-	print line.split()[0]
-print numlist 
+
 #Basic KK Algorithm; takes list and prints the residue
 def kar_karp(numlist):
 	for i in range(len(numlist)):
@@ -18,5 +17,8 @@ def kar_karp(numlist):
 		numlist[len(numlist)-1] = diff 
 		numlist[len(numlist)-2] = 0
 	print numlist[len(numlist)-1]
+
+#invoke methods
+kar_karp(numlist)
 
 
