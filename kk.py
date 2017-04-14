@@ -1,4 +1,4 @@
-
+#!/usr/bin/python
 import sys
 filename = sys.argv[1]
 num_file = open(filename, 'r')
@@ -19,6 +19,12 @@ def kar_karp(numlist):
 	print numlist[len(numlist)-1]
 
 #invoke methods
-kar_karp(numlist)
+def main():
+    kar_karp(numlist)
+
+if __name__ == "__main__":
+	main()
+   
+#To execute, might have to run in terminal : chmod +x kk.py 
 
 
