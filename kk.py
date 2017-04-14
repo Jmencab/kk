@@ -1,4 +1,13 @@
 
+import sys
+filename = sys.argv[1]
+num_file = open(filename, 'r')
+#to be used for 
+numlist = []
+for line in num_file:
+	numlist.append(int(line.split()[0]))
+	print line.split()[0]
+print numlist 
 #Basic KK Algorithm; takes list and prints the residue
 def kar_karp(numlist):
 	for i in range(len(numlist)):
