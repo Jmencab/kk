@@ -1,0 +1,803 @@
+****************** TEST 0 ******************
+********************************************
+Result from KK: 94444
+Time to run KK: 0.000617
+Result from RR rand: 686998610
+Time to run RR rand: 0.246934
+Result from RR part: 144
+Time to run RR part: 14.613236
+****************** TEST 1 ******************
+********************************************
+Result from KK: 850682
+Time to run KK: 0.000471
+Result from RR rand: 120448192
+Time to run RR rand: 0.274321
+Result from RR part: 116
+Time to run RR part: 19.040246
+****************** TEST 2 ******************
+********************************************
+Result from KK: 89392
+Time to run KK: 0.000483
+Result from RR rand: 178684152
+Time to run RR rand: 0.327146
+Result from RR part: 20
+Time to run RR part: 15.946220
+****************** TEST 3 ******************
+********************************************
+Result from KK: 195057
+Time to run KK: 0.000491
+Result from RR rand: 857515495
+Time to run RR rand: 0.252964
+Result from RR part: 37
+Time to run RR part: 14.928106
+****************** TEST 4 ******************
+********************************************
+Result from KK: 96978
+Time to run KK: 0.000557
+Result from RR rand: 90729704
+Time to run RR rand: 0.265212
+Result from RR part: 314
+Time to run RR part: 16.380932
+****************** TEST 5 ******************
+********************************************
+Result from KK: 9665
+Time to run KK: 0.000508
+Result from RR rand: 302064019
+Time to run RR rand: 0.253664
+Result from RR part: 109
+Time to run RR part: 15.536194
+****************** TEST 6 ******************
+********************************************
+Result from KK: 20619
+Time to run KK: 0.000489
+Result from RR rand: 304146551
+Time to run RR rand: 0.266658
+Result from RR part: 297
+Time to run RR part: 15.170123
+****************** TEST 7 ******************
+********************************************
+Result from KK: 59338
+Time to run KK: 0.000494
+Result from RR rand: 29680012
+Time to run RR rand: 0.247634
+Result from RR part: 438
+Time to run RR part: 14.609433
+****************** TEST 8 ******************
+********************************************
+Result from KK: 99031
+Time to run KK: 0.000529
+Result from RR rand: 12051917
+Time to run RR rand: 0.267832
+Result from RR part: 383
+Time to run RR part: 14.952588
+****************** TEST 9 ******************
+********************************************
+Result from KK: 518937
+Time to run KK: 0.000620
+Result from RR rand: 262188369
+Time to run RR rand: 0.306108
+Result from RR part: 115
+Time to run RR part: 15.643220
+****************** TEST 10 ******************
+********************************************
+Result from KK: 97605
+Time to run KK: 0.000480
+Result from RR rand: 1699314989
+Time to run RR rand: 0.240487
+Result from RR part: 101
+Time to run RR part: 14.913502
+****************** TEST 11 ******************
+********************************************
+Result from KK: 6601
+Time to run KK: 0.000553
+Result from RR rand: 289289303
+Time to run RR rand: 0.328058
+Result from RR part: 95
+Time to run RR part: 16.052007
+****************** TEST 12 ******************
+********************************************
+Result from KK: 719180
+Time to run KK: 0.000465
+Result from RR rand: 672192878
+Time to run RR rand: 0.269792
+Result from RR part: 470
+Time to run RR part: 16.038950
+****************** TEST 13 ******************
+********************************************
+Result from KK: 1991088
+Time to run KK: 0.000492
+Result from RR rand: 4876622
+Time to run RR rand: 0.264608
+Result from RR part: 2
+Time to run RR part: 14.900626
+****************** TEST 14 ******************
+********************************************
+Result from KK: 179942
+Time to run KK: 0.000465
+Result from RR rand: 1654155070
+Time to run RR rand: 0.248922
+Result from RR part: 48
+Time to run RR part: 17.116235
+****************** TEST 15 ******************
+********************************************
+Result from KK: 705564
+Time to run KK: 0.000633
+Result from RR rand: 648146652
+Time to run RR rand: 0.295729
+Result from RR part: 180
+Time to run RR part: 15.503876
+****************** TEST 16 ******************
+********************************************
+Result from KK: 39725
+Time to run KK: 0.000632
+Result from RR rand: 112943515
+Time to run RR rand: 0.282868
+Result from RR part: 307
+Time to run RR part: 15.863027
+****************** TEST 17 ******************
+********************************************
+Result from KK: 604366
+Time to run KK: 0.000425
+Result from RR rand: 2099180940
+Time to run RR rand: 0.292806
+Result from RR part: 68
+Time to run RR part: 18.011347
+****************** TEST 18 ******************
+********************************************
+Result from KK: 438201
+Time to run KK: 0.000464
+Result from RR rand: 174017971
+Time to run RR rand: 0.289777
+Result from RR part: 281
+Time to run RR part: 15.937514
+****************** TEST 19 ******************
+********************************************
+Result from KK: 368146
+Time to run KK: 0.000430
+Result from RR rand: 129270878
+Time to run RR rand: 0.282502
+Result from RR part: 82
+Time to run RR part: 19.260558
+****************** TEST 20 ******************
+********************************************
+Result from KK: 78790
+Time to run KK: 0.000812
+Result from RR rand: 526416544
+Time to run RR rand: 0.409643
+Result from RR part: 658
+Time to run RR part: 16.547152
+****************** TEST 21 ******************
+********************************************
+Result from KK: 43104
+Time to run KK: 0.000382
+Result from RR rand: 248624702
+Time to run RR rand: 0.268060
+Result from RR part: 196
+Time to run RR part: 14.808371
+****************** TEST 22 ******************
+********************************************
+Result from KK: 300477
+Time to run KK: 0.000472
+Result from RR rand: 15572279
+Time to run RR rand: 0.244618
+Result from RR part: 39
+Time to run RR part: 14.389449
+****************** TEST 23 ******************
+********************************************
+Result from KK: 571338
+Time to run KK: 0.000490
+Result from RR rand: 96968956
+Time to run RR rand: 0.259722
+Result from RR part: 264
+Time to run RR part: 14.148012
+****************** TEST 24 ******************
+********************************************
+Result from KK: 59537
+Time to run KK: 0.000495
+Result from RR rand: 770417641
+Time to run RR rand: 0.256063
+Result from RR part: 293
+Time to run RR part: 13.981443
+****************** TEST 25 ******************
+********************************************
+Result from KK: 268444
+Time to run KK: 0.000478
+Result from RR rand: 94344348
+Time to run RR rand: 0.268114
+Result from RR part: 126
+Time to run RR part: 14.073670
+****************** TEST 26 ******************
+********************************************
+Result from KK: 1037895
+Time to run KK: 0.000630
+Result from RR rand: 400964877
+Time to run RR rand: 0.244476
+Result from RR part: 585
+Time to run RR part: 14.128139
+****************** TEST 27 ******************
+********************************************
+Result from KK: 16878
+Time to run KK: 0.000863
+Result from RR rand: 560374966
+Time to run RR rand: 0.296188
+Result from RR part: 30
+Time to run RR part: 14.441950
+****************** TEST 28 ******************
+********************************************
+Result from KK: 39550
+Time to run KK: 0.000521
+Result from RR rand: 47686118
+Time to run RR rand: 0.242984
+Result from RR part: 20
+Time to run RR part: 14.041900
+****************** TEST 29 ******************
+********************************************
+Result from KK: 377027
+Time to run KK: 0.000467
+Result from RR rand: 513502249
+Time to run RR rand: 0.245183
+Result from RR part: 61
+Time to run RR part: 13.816112
+****************** TEST 30 ******************
+********************************************
+Result from KK: 149763
+Time to run KK: 0.000484
+Result from RR rand: 46138411
+Time to run RR rand: 0.261951
+Result from RR part: 329
+Time to run RR part: 14.569333
+****************** TEST 31 ******************
+********************************************
+Result from KK: 40465
+Time to run KK: 0.000481
+Result from RR rand: 62208393
+Time to run RR rand: 0.270589
+Result from RR part: 11
+Time to run RR part: 14.653889
+****************** TEST 32 ******************
+********************************************
+Result from KK: 327239
+Time to run KK: 0.000647
+Result from RR rand: 256657287
+Time to run RR rand: 0.251807
+Result from RR part: 503
+Time to run RR part: 14.734297
+****************** TEST 33 ******************
+********************************************
+Result from KK: 45112
+Time to run KK: 0.000482
+Result from RR rand: 222600112
+Time to run RR rand: 0.261797
+Result from RR part: 402
+Time to run RR part: 14.368711
+****************** TEST 34 ******************
+********************************************
+Result from KK: 290205
+Time to run KK: 0.000519
+Result from RR rand: 52086897
+Time to run RR rand: 0.244035
+Result from RR part: 245
+Time to run RR part: 14.574220
+****************** TEST 35 ******************
+********************************************
+Result from KK: 259594
+Time to run KK: 0.000471
+Result from RR rand: 297064624
+Time to run RR rand: 0.271473
+Result from RR part: 80
+Time to run RR part: 14.638916
+****************** TEST 36 ******************
+********************************************
+Result from KK: 78521
+Time to run KK: 0.000485
+Result from RR rand: 14380419
+Time to run RR rand: 0.237748
+Result from RR part: 447
+Time to run RR part: 13.939642
+****************** TEST 37 ******************
+********************************************
+Result from KK: 4130
+Time to run KK: 0.000503
+Result from RR rand: 873421720
+Time to run RR rand: 0.244669
+Result from RR part: 102
+Time to run RR part: 14.343787
+****************** TEST 38 ******************
+********************************************
+Result from KK: 313776
+Time to run KK: 0.000600
+Result from RR rand: 129672692
+Time to run RR rand: 0.272455
+Result from RR part: 56
+Time to run RR part: 15.009311
+****************** TEST 39 ******************
+********************************************
+Result from KK: 160400
+Time to run KK: 0.000485
+Result from RR rand: 269745286
+Time to run RR rand: 0.249548
+Result from RR part: 266
+Time to run RR part: 14.490552
+****************** TEST 40 ******************
+********************************************
+Result from KK: 340198
+Time to run KK: 0.000480
+Result from RR rand: 4177260
+Time to run RR rand: 0.282839
+Result from RR part: 104
+Time to run RR part: 14.847273
+****************** TEST 41 ******************
+********************************************
+Result from KK: 237825
+Time to run KK: 0.000645
+Result from RR rand: 751180057
+Time to run RR rand: 0.284420
+Result from RR part: 709
+Time to run RR part: 14.385942
+****************** TEST 42 ******************
+********************************************
+Result from KK: 79420
+Time to run KK: 0.000482
+Result from RR rand: 1014682216
+Time to run RR rand: 0.276752
+Result from RR part: 150
+Time to run RR part: 14.513355
+****************** TEST 43 ******************
+********************************************
+Result from KK: 269065
+Time to run KK: 0.000618
+Result from RR rand: 163726299
+Time to run RR rand: 0.288299
+Result from RR part: 197
+Time to run RR part: 15.993804
+****************** TEST 44 ******************
+********************************************
+Result from KK: 162860
+Time to run KK: 0.000481
+Result from RR rand: 1214359966
+Time to run RR rand: 0.258323
+Result from RR part: 66
+Time to run RR part: 14.776724
+****************** TEST 45 ******************
+********************************************
+Result from KK: 48497
+Time to run KK: 0.000485
+Result from RR rand: 75752603
+Time to run RR rand: 0.248739
+Result from RR part: 85
+Time to run RR part: 14.458637
+****************** TEST 46 ******************
+********************************************
+Result from KK: 609353
+Time to run KK: 0.000474
+Result from RR rand: 181024541
+Time to run RR rand: 0.273108
+Result from RR part: 11
+Time to run RR part: 14.902072
+****************** TEST 47 ******************
+********************************************
+Result from KK: 318660
+Time to run KK: 0.000473
+Result from RR rand: 371360944
+Time to run RR rand: 0.290653
+Result from RR part: 790
+Time to run RR part: 15.442935
+****************** TEST 48 ******************
+********************************************
+Result from KK: 279260
+Time to run KK: 0.000508
+Result from RR rand: 90104186
+Time to run RR rand: 0.340753
+Result from RR part: 78
+Time to run RR part: 14.916175
+****************** TEST 49 ******************
+********************************************
+Result from KK: 469787
+Time to run KK: 0.000466
+Result from RR rand: 552035957
+Time to run RR rand: 0.281436
+Result from RR part: 129
+Time to run RR part: 14.790490
+****************** TEST 50 ******************
+********************************************
+Result from KK: 666012
+Time to run KK: 0.000592
+Result from RR rand: 361454984
+Time to run RR rand: 0.249009
+Result from RR part: 196
+Time to run RR part: 14.378386
+****************** TEST 51 ******************
+********************************************
+Result from KK: 119630
+Time to run KK: 0.000480
+Result from RR rand: 52776742
+Time to run RR rand: 0.254193
+Result from RR part: 48
+Time to run RR part: 15.377094
+****************** TEST 52 ******************
+********************************************
+Result from KK: 455473
+Time to run KK: 0.000479
+Result from RR rand: 729075053
+Time to run RR rand: 0.244683
+Result from RR part: 47
+Time to run RR part: 14.546693
+****************** TEST 53 ******************
+********************************************
+Result from KK: 19652
+Time to run KK: 0.000492
+Result from RR rand: 171369650
+Time to run RR rand: 0.253965
+Result from RR part: 108
+Time to run RR part: 14.310414
+****************** TEST 54 ******************
+********************************************
+Result from KK: 171190
+Time to run KK: 0.000488
+Result from RR rand: 320522720
+Time to run RR rand: 0.238134
+Result from RR part: 78
+Time to run RR part: 14.314377
+****************** TEST 55 ******************
+********************************************
+Result from KK: 308866
+Time to run KK: 0.000485
+Result from RR rand: 1066809282
+Time to run RR rand: 0.251107
+Result from RR part: 574
+Time to run RR part: 14.276418
+****************** TEST 56 ******************
+********************************************
+Result from KK: 594311
+Time to run KK: 0.000485
+Result from RR rand: 603620779
+Time to run RR rand: 0.250601
+Result from RR part: 149
+Time to run RR part: 14.238575
+****************** TEST 57 ******************
+********************************************
+Result from KK: 20525
+Time to run KK: 0.000487
+Result from RR rand: 153768309
+Time to run RR rand: 0.253336
+Result from RR part: 189
+Time to run RR part: 15.721551
+****************** TEST 58 ******************
+********************************************
+Result from KK: 94281
+Time to run KK: 0.000483
+Result from RR rand: 156984357
+Time to run RR rand: 0.247974
+Result from RR part: 49
+Time to run RR part: 14.134721
+****************** TEST 59 ******************
+********************************************
+Result from KK: 336897
+Time to run KK: 0.000600
+Result from RR rand: 75980027
+Time to run RR rand: 0.281780
+Result from RR part: 443
+Time to run RR part: 14.853105
+****************** TEST 60 ******************
+********************************************
+Result from KK: 76408
+Time to run KK: 0.000471
+Result from RR rand: 86133822
+Time to run RR rand: 0.235799
+Result from RR part: 20
+Time to run RR part: 15.423803
+****************** TEST 61 ******************
+********************************************
+Result from KK: 119004
+Time to run KK: 0.000485
+Result from RR rand: 666842082
+Time to run RR rand: 0.279230
+Result from RR part: 708
+Time to run RR part: 15.251788
+****************** TEST 62 ******************
+********************************************
+Result from KK: 476036
+Time to run KK: 0.000481
+Result from RR rand: 760078176
+Time to run RR rand: 0.247587
+Result from RR part: 194
+Time to run RR part: 14.580259
+****************** TEST 63 ******************
+********************************************
+Result from KK: 224098
+Time to run KK: 0.000600
+Result from RR rand: 202584104
+Time to run RR rand: 0.257974
+Result from RR part: 56
+Time to run RR part: 14.303034
+****************** TEST 64 ******************
+********************************************
+Result from KK: 53720
+Time to run KK: 0.000479
+Result from RR rand: 400953368
+Time to run RR rand: 0.268962
+Result from RR part: 36
+Time to run RR part: 13.994806
+****************** TEST 65 ******************
+********************************************
+Result from KK: 484213
+Time to run KK: 0.000480
+Result from RR rand: 406528347
+Time to run RR rand: 0.253315
+Result from RR part: 373
+Time to run RR part: 13.959604
+****************** TEST 66 ******************
+********************************************
+Result from KK: 571715
+Time to run KK: 0.000492
+Result from RR rand: 685547811
+Time to run RR rand: 0.231176
+Result from RR part: 93
+Time to run RR part: 14.037126
+****************** TEST 67 ******************
+********************************************
+Result from KK: 69012
+Time to run KK: 0.000500
+Result from RR rand: 705071344
+Time to run RR rand: 0.252743
+Result from RR part: 86
+Time to run RR part: 14.107787
+****************** TEST 68 ******************
+********************************************
+Result from KK: 325540
+Time to run KK: 0.000480
+Result from RR rand: 692177126
+Time to run RR rand: 0.295707
+Result from RR part: 232
+Time to run RR part: 14.572127
+****************** TEST 69 ******************
+********************************************
+Result from KK: 407880
+Time to run KK: 0.000483
+Result from RR rand: 336003186
+Time to run RR rand: 0.237054
+Result from RR part: 98
+Time to run RR part: 13.823840
+****************** TEST 70 ******************
+********************************************
+Result from KK: 9550
+Time to run KK: 0.000634
+Result from RR rand: 400397164
+Time to run RR rand: 0.255069
+Result from RR part: 64
+Time to run RR part: 13.828904
+****************** TEST 71 ******************
+********************************************
+Result from KK: 177251
+Time to run KK: 0.000493
+Result from RR rand: 1137304017
+Time to run RR rand: 0.238397
+Result from RR part: 129
+Time to run RR part: 14.376387
+****************** TEST 72 ******************
+********************************************
+Result from KK: 448812
+Time to run KK: 0.000493
+Result from RR rand: 687832814
+Time to run RR rand: 0.246442
+Result from RR part: 314
+Time to run RR part: 13.781125
+****************** TEST 73 ******************
+********************************************
+Result from KK: 260987
+Time to run KK: 0.000638
+Result from RR rand: 698656649
+Time to run RR rand: 0.244358
+Result from RR part: 25
+Time to run RR part: 13.838159
+****************** TEST 74 ******************
+********************************************
+Result from KK: 34299
+Time to run KK: 0.000481
+Result from RR rand: 85192271
+Time to run RR rand: 0.245562
+Result from RR part: 83
+Time to run RR part: 13.649409
+****************** TEST 75 ******************
+********************************************
+Result from KK: 157929
+Time to run KK: 0.000483
+Result from RR rand: 266900347
+Time to run RR rand: 0.242713
+Result from RR part: 51
+Time to run RR part: 14.193391
+****************** TEST 76 ******************
+********************************************
+Result from KK: 1060514
+Time to run KK: 0.000482
+Result from RR rand: 909272200
+Time to run RR rand: 0.236288
+Result from RR part: 134
+Time to run RR part: 14.062380
+****************** TEST 77 ******************
+********************************************
+Result from KK: 31384
+Time to run KK: 0.000483
+Result from RR rand: 1376409502
+Time to run RR rand: 0.312521
+Result from RR part: 218
+Time to run RR part: 15.275260
+****************** TEST 78 ******************
+********************************************
+Result from KK: 300618
+Time to run KK: 0.000608
+Result from RR rand: 921699214
+Time to run RR rand: 0.244956
+Result from RR part: 288
+Time to run RR part: 14.735654
+****************** TEST 79 ******************
+********************************************
+Result from KK: 48236
+Time to run KK: 0.000858
+Result from RR rand: 601698328
+Time to run RR rand: 0.290811
+Result from RR part: 10
+Time to run RR part: 14.324253
+****************** TEST 80 ******************
+********************************************
+Result from KK: 263542
+Time to run KK: 0.000470
+Result from RR rand: 318391452
+Time to run RR rand: 0.236080
+Result from RR part: 76
+Time to run RR part: 14.093797
+****************** TEST 81 ******************
+********************************************
+Result from KK: 116623
+Time to run KK: 0.000502
+Result from RR rand: 253989381
+Time to run RR rand: 0.243248
+Result from RR part: 131
+Time to run RR part: 14.045495
+****************** TEST 82 ******************
+********************************************
+Result from KK: 192024
+Time to run KK: 0.000483
+Result from RR rand: 450601886
+Time to run RR rand: 0.242024
+Result from RR part: 108
+Time to run RR part: 14.373969
+****************** TEST 83 ******************
+********************************************
+Result from KK: 18007
+Time to run KK: 0.000573
+Result from RR rand: 203270503
+Time to run RR rand: 0.253385
+Result from RR part: 13
+Time to run RR part: 13.960374
+****************** TEST 84 ******************
+********************************************
+Result from KK: 40603
+Time to run KK: 0.000484
+Result from RR rand: 589937095
+Time to run RR rand: 0.277925
+Result from RR part: 169
+Time to run RR part: 14.058885
+****************** TEST 85 ******************
+********************************************
+Result from KK: 840
+Time to run KK: 0.000486
+Result from RR rand: 513770056
+Time to run RR rand: 0.255995
+Result from RR part: 66
+Time to run RR part: 15.546982
+****************** TEST 86 ******************
+********************************************
+Result from KK: 2176376
+Time to run KK: 0.000488
+Result from RR rand: 74349216
+Time to run RR rand: 0.302272
+Result from RR part: 70
+Time to run RR part: 15.313480
+****************** TEST 87 ******************
+********************************************
+Result from KK: 11705
+Time to run KK: 0.000493
+Result from RR rand: 146037219
+Time to run RR rand: 0.279447
+Result from RR part: 285
+Time to run RR part: 14.715138
+****************** TEST 88 ******************
+********************************************
+Result from KK: 158241
+Time to run KK: 0.000590
+Result from RR rand: 398835717
+Time to run RR rand: 0.252634
+Result from RR part: 29
+Time to run RR part: 14.584778
+****************** TEST 89 ******************
+********************************************
+Result from KK: 224555
+Time to run KK: 0.000482
+Result from RR rand: 2518167
+Time to run RR rand: 0.246864
+Result from RR part: 183
+Time to run RR part: 14.012459
+****************** TEST 90 ******************
+********************************************
+Result from KK: 287075
+Time to run KK: 0.000480
+Result from RR rand: 89834929
+Time to run RR rand: 0.247790
+Result from RR part: 39
+Time to run RR part: 14.311431
+****************** TEST 91 ******************
+********************************************
+Result from KK: 136621
+Time to run KK: 0.000598
+Result from RR rand: 426437637
+Time to run RR rand: 0.291182
+Result from RR part: 235
+Time to run RR part: 14.394762
+****************** TEST 92 ******************
+********************************************
+Result from KK: 104941
+Time to run KK: 0.000485
+Result from RR rand: 195382115
+Time to run RR rand: 0.241970
+Result from RR part: 325
+Time to run RR part: 14.121313
+****************** TEST 93 ******************
+********************************************
+Result from KK: 354376
+Time to run KK: 0.000485
+Result from RR rand: 2043624396
+Time to run RR rand: 0.241670
+Result from RR part: 162
+Time to run RR part: 15.273107
+****************** TEST 94 ******************
+********************************************
+Result from KK: 1974351
+Time to run KK: 0.000508
+Result from RR rand: 320113275
+Time to run RR rand: 0.296925
+Result from RR part: 47
+Time to run RR part: 15.333905
+****************** TEST 95 ******************
+********************************************
+Result from KK: 37927
+Time to run KK: 0.000483
+Result from RR rand: 69736501
+Time to run RR rand: 0.276981
+Result from RR part: 373
+Time to run RR part: 14.808605
+****************** TEST 96 ******************
+********************************************
+Result from KK: 174313
+Time to run KK: 0.000482
+Result from RR rand: 100833931
+Time to run RR rand: 0.240144
+Result from RR part: 241
+Time to run RR part: 14.070634
+****************** TEST 97 ******************
+********************************************
+Result from KK: 51859
+Time to run KK: 0.000483
+Result from RR rand: 315151893
+Time to run RR rand: 0.242740
+Result from RR part: 217
+Time to run RR part: 14.198811
+****************** TEST 98 ******************
+********************************************
+Result from KK: 156443
+Time to run KK: 0.000476
+Result from RR rand: 615750547
+Time to run RR rand: 0.247066
+Result from RR part: 205
+Time to run RR part: 14.503148
+****************** TEST 99 ******************
+********************************************
+Result from KK: 63567
+Time to run KK: 0.000480
+Result from RR rand: 909963739
+Time to run RR rand: 0.275340
+Result from RR part: 305
+Time to run RR part: 14.166189
+Average residual for KK: 291297.000000
+Average residual for RR rand: 440033218.000000
+Average residual for RR part: 190.000000

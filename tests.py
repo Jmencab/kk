@@ -84,24 +84,31 @@ print "*******************************\n"
 example_one = [10,8,7,6,5]
 example_two = [4,2,3,2,1]
 example_three = [6,2,3,2,1]
+example_four = kk.gen_list(1000000000000, 20, [])
 print "*******************************\n"
 print "*******************************\n*******************************"
 print example_one
 print "*******************************\n"
-print kk.rep_rand_part(example_one)
+print kk.rep_rand_part_test(example_one)
 print "*******************************\n"
-'''
+
 print "*******************************\n"
 print "*******************************\n*******************************"
 print example_two
 print "*******************************\n"
-print kk.rep_rand_part(example_two)
+print kk.rep_rand_part_test(example_two)
 print "*******************************\n"
 
 print "*******************************\n"
 print "*******************************\n*******************************"
 print example_three
 print "*******************************\n"
-print kk.rep_rand_part(example_three)
+print kk.rep_rand_part_test(example_three)
 print "*******************************\n"
-'''
+
+print "*******************************\n"
+print "*******************************\n*******************************"
+print example_four
+print "*******************************\n"
+print kk.rep_rand_part_test(example_four)
+print "*******************************\n"
