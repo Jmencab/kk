@@ -14,7 +14,6 @@ def gen_list(limit, lst_sz, numlist=[]):
 def kar_karp(numlist):
 	length = len(numlist)
 	for i in range(length):
-		#numlist = sorted(numlist)
 		numlist = sorted(numlist)
 		if numlist[length-1] == 0:
 			return 0;
@@ -42,6 +41,7 @@ def kar_karp_test(numlist):
 #Function for running random moves
 #Alters original list. 
 #Be caureful to make copy if you need original list
+#DO you mean > here
 def rand_move(numlist):
 	length = len(numlist)
 	index_i = random.randrange(length)
@@ -86,6 +86,7 @@ def pre_part(numlist, prepart=[], aprime=[]):
 	for i in xrange(0, length):
 		aprime[prepart[i]] += numlist[i]
 	return aprime
+
 def pre_part_test(numlist, prepart=[], aprime=[]):
 	print "Original numlist:"
 	length = len(numlist)
@@ -153,6 +154,39 @@ def rep_rand_part_test(numlist):
 		if res < best_res:
 			best_res = res
 			print new_numlist
+	return best_res
+#function to generate a neighbor
+def get_new_neighbor(numlist):
+	length = len(numlist)
+	index_i = random.randrange(length)
+		numlist[index_i] = - numlist[index_i]
+	return numlist
+#function for hill climbing with repeated random
+def hill_climbing_rand(numlist):
+	numlist_best_rand = list(numlist)
+	best_res = res_calc(numlist_best_rand)
+	numlist = rand_move(numlist)
+	res = res_calc(numlist)
+	for _ in xrange(0,25000):
+		if res == 0:
+			return res
+		if res < best_res:
+			numlist_best_rand = list(numlist)
+			best_res = res
+		numlist = get_new_neighbor(numlist)
+		res = res_calc(numlist)
+	return best_res
+#function for hill climbing with prepartitioning
+def hill_climbing_part(numlist): 
+	numlist_cpy = list(numlist)
+	best_res = kar_karp(numlist)
+	for _ in xrange(0,25000):
+		new_numlist = pre_part(numlist_cpy,[],[])
+		res = kar_karp(new_numlist)
+		if res == 0:
+			return res
+		if res < best_res:
+			best_res = res
 	return best_res
 
 #invoke methods
