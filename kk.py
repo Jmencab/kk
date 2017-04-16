@@ -102,11 +102,18 @@ def pre_part_test(numlist, prepart=[], aprime=[]):
 	print aprime
 	return aprime
 #Doing random resetting with random method
+def rand_solution(numlist, len):
+	for i in xrange(len):
+		if random.random() < .5:
+			numlist[i] = -numlist[i]
+	return numlist
+
 def rep_rand_rand(numlist):
+	numlist = rand_solution(numlist, 100)
 	numlist_best_rand = list(numlist)
 	best_res = res_calc(numlist_best_rand)
 	for _ in xrange(0,25000):
-		numlist = rand_move(numlist)
+		numlist = rand_solution(numlist, 100)
 		res = res_calc(numlist)
 		if res == 0:
 			return res
@@ -114,11 +121,13 @@ def rep_rand_rand(numlist):
 			numlist_best_rand = list(numlist)
 			best_res = res
 	return best_res
+
 def rep_rand_rand_test(numlist):
+	numlist = rand_solution(numlist, 100)
 	numlist_best_rand = numlist
 	best_res = res_calc(numlist_best_rand)
 	for _ in xrange(0,25000):
-		numlist = rand_move(numlist)
+		numlist = rand_solution(numlist, 100)
 		res = res_calc(numlist)
 		if res == 0:
 			print numlist
@@ -130,10 +139,10 @@ def rep_rand_rand_test(numlist):
 	return best_res
 #Doing random resetting with pp method
 def rep_rand_part(numlist):
-	numlist_cpy = list(numlist)
-	best_res = kar_karp(numlist)
+	new_numlist = pre_part(numlist,[],[])
+	best_res = kar_karp(new_numlist)
 	for _ in xrange(0,25000):
-		new_numlist = pre_part(numlist_cpy,[],[])
+		new_numlist = pre_part(numlist,[],[])
 		res = kar_karp(new_numlist)
 		if res == 0:
 			return res
