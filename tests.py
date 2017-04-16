@@ -89,26 +89,26 @@ print "*******************************\n"
 print "*******************************\n*******************************"
 print example_one
 print "*******************************\n"
-print kk.rep_rand_part_test(example_one)
+print kk.sim_annealing_part_test(example_one)
 print "*******************************\n"
 
 print "*******************************\n"
 print "*******************************\n*******************************"
 print example_two
 print "*******************************\n"
-print kk.rep_rand_part_test(example_two)
+#print kk.hill_climbing_part_test(example_two)
 print "*******************************\n"
 
 print "*******************************\n"
 print "*******************************\n*******************************"
 print example_three
 print "*******************************\n"
-print kk.rep_rand_part_test(example_three)
+#print kk.hill_climbing_part_test(example_three)
 print "*******************************\n"
 
 print "*******************************\n"
 print "*******************************\n*******************************"
-print example_four
+#print example_four
 print "*******************************\n"
-print kk.rep_rand_part_test(example_four)
+#print kk.hill_climbing_rand_test(example_four)
 print "*******************************\n"

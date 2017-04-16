@@ -180,6 +180,24 @@ def hill_climbing_rand(numlist):
 			numlist_best_rand = list(numlist_rand_sol)
 			best_res = res
 	return best_res
+def hill_climbing_rand_test(numlist):
+	length = len(numlist)
+	numlist_rand_sol = rand_solution(numlist,length)
+	numlist_best_rand = numlist_rand_sol
+	best_res = res_calc(numlist_best_rand)
+	print best_res
+	for _ in xrange(0,25000):
+		numlist_rand_sol = rand_move(numlist_rand_sol)
+		res = res_calc(numlist_rand_sol)
+		if res == 0:
+			print numlist_rand_sol
+			return res
+		if res < best_res:
+			numlist_best_rand = list(numlist_rand_sol)
+			best_res = res
+			print best_res
+			print numlist_rand_sol
+	return best_res
 #function to generate a neighbor for the prepartitioning
 def rand_move_part(prepart):
 	length = len (prepart)
@@ -202,6 +220,27 @@ def hill_climbing_part(numlist):
 		if res < best_res:
 			best_res = res
 	return best_res
+def hill_climbing_part_test(numlist):
+	length = len(numlist) 
+	pre_part_P = new_pre_partP(length, [])
+	print pre_part_P
+	numlist_cpy = pre_part(numlist, pre_part_P, [])
+	best_res = kar_karp(list(numlist_cpy))
+	print numlist_cpy
+	print best_res
+	for _ in xrange(0,10):
+		pre_part_P = rand_move_part(pre_part_P)
+		print pre_part_P
+		new_numlist = pre_part(numlist_cpy,pre_part_P,[])
+		print new_numlist
+		res = kar_karp(list(new_numlist))
+		print res
+		if res == 0:
+			return res
+		if res < best_res:
+			best_res = res
+			print best_res
+	return best_res
 #Function for the annealing probability
 def T(iter):
 	return (math.pow(10,10))*math.pow(0.8,(iter/300))
@@ -221,9 +260,45 @@ def sim_annealing_rand(numlist):
 		else :
 			rand_prob = random.random()
 			if rand_prob <=  math.exp(-(res_sol1-res_sol)/T(i)):
-				numlist_sol = list(numlist)
+				numlist_sol = list(numlist_sol1)
 		if res_calc(numlist_sol)< res_calc(numlist_sol2):
 			numlist_sol2 = list(numlist_sol) 
+			res_sol2 = res_calc(numlist_sol2)
+	return res_sol2
+def sim_annealing_rand_test(numlist):
+	length = len(numlist)
+	numlist_sol = rand_solution(numlist, length)
+	print 'numlust_sol'
+	print numlist_sol
+	res_sol = res_calc(numlist_sol)
+	print res_sol
+	numlist_sol2 = list(numlist_sol)
+	res_sol2 =  res_sol
+	print 'loop'
+	for i in xrange(0,10):
+		numlist_sol1 = rand_move(list(numlist_sol))
+		print 'numlist_sol1'
+		print numlist_sol1
+		res_sol1 = res_calc(numlist_sol1)
+		print res_sol1
+		if res_sol1 < res_sol:
+			numlist_sol = list(numlist_sol1)
+			res_sol = res_calc(numlist_sol)
+			print 'numlist_sol'
+			print numlist_sol
+			print res_sol
+		else :
+			rand_prob = random.random()
+			if rand_prob <=  math.exp(-(res_sol1-res_sol)/T(i)):
+				numlist_sol = list(numlist_sol1)
+				print 'numlist_sol'
+				print numlist_sol
+		if res_calc(numlist_sol)< res_calc(numlist_sol2):
+			numlist_sol2 = list(numlist_sol) 
+			res_sol2 = res_calc(numlist_sol2)
+			print 'numlist_sol2'
+			print numlist_sol2
+			print res_sol2
 	return res_sol2
 #function for simulated annealing: prepartitioning
 def sim_annealing_part(numlist):
@@ -243,10 +318,49 @@ def sim_annealing_part(numlist):
 		else: 
 			rand_prob = random.random()
 			if rand_prob <=  math.exp(-(res_sol1-res_sol)/T(i)):
-				numlist_sol = list(numlist)
+				numlist_sol = list(numlist_sol1)
 		if kar_karp(list(numlist_sol))< kar_karp(list(numlist_sol2)):
 			numlist_sol2 = list(numlist_sol) 
 			res_sol2 = kar_karp(list(numlist_sol2))
+	return res_sol2
+def sim_annealing_part_test(numlist):
+	length = len (numlist)
+	pre_part_P = new_pre_partP(length, [])
+	print pre_part_P
+	numlist_sol = pre_part(numlist, pre_part_P, [])
+	print numlist_sol
+	res_sol = kar_karp(list(numlist_sol))
+	print res_sol
+	numlist_sol2 = list(numlist_sol)
+	res_sol2 = res_sol
+	print 'loop'
+	for i in xrange(0,10):
+		pre_part_P = rand_move_part(pre_part_P)
+		print 'next prepart'
+		print pre_part_P
+		numlist_sol1 = pre_part(numlist, pre_part_P,[])
+		print 'next numlist sol'
+		print numlist_sol1
+		res_sol1 = kar_karp(list(numlist_sol1))
+		print res_sol1
+		if res_sol1< res_sol:
+			numlist_sol = list(numlist_sol1)
+			res_sol = kar_karp(list(numlist_sol))
+			print 'new best'
+			print numlist_sol
+			print res_sol
+		else: 
+			rand_prob = random.random()
+			if rand_prob <=  math.exp(-(res_sol1-res_sol)/T(i)):
+				numlist_sol = list(numlist_sol1)
+				print 'after prob'
+				print numlist_sol
+		if kar_karp(list(numlist_sol))< kar_karp(list(numlist_sol2)):
+			numlist_sol2 = list(numlist_sol) 
+			res_sol2 = kar_karp(list(numlist_sol2))
+			print ' new numlist sol2'
+			print numlist_sol2
+			print res_sol2
 	return res_sol2
 #invoke methods  
 def main():
