@@ -26,13 +26,13 @@ def negator(numlist, length):
 def kar_karp(numlist):
 	length = len(numlist)
 	neg_numlist = negator(numlist,length)
-	for i in rxange(length):
-		heapq.heapify(neg_numlist)
+	heapq.heapify(neg_numlist)
+	for i in xrange(length):
 		big = - heapq.heappop(neg_numlist)
 		small = - heapq.heappop(neg_numlist)
 		diff = big - small 
-		numlist.heapq.heappush(neg_numlist, -diff)
-		numlist.heapq.heappush(neg_numlist, 0)
+		heapq.heappush(neg_numlist, -diff)
+		heapq.heappush(neg_numlist, 0)
 	res = heapq.heappop(neg_numlist)
 	if res < 0:
 		return -res
@@ -42,8 +42,8 @@ def kar_karp(numlist):
 def kar_karp_test(numlist):
 	length = len(numlist)
 	neg_numlist = negator(numlist, length)
+	heapq.heapify(neg_numlist)
 	for _ in xrange(length):
-		heapq.heapify(neg_numlist)
 		big = - heapq.heappop(neg_numlist)
 		small = - heapq.heappop(neg_numlist)
 		diff = big - small 
