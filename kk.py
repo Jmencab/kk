@@ -3,6 +3,7 @@ import sys
 import random 
 import timeit
 import math
+import heapq
 #function for generating random instances of problem
 def gen_list(limit, lst_sz, numlist=[]):
 	for _ in xrange(lst_sz):
@@ -17,6 +18,46 @@ def rand_solution(numlist, len):
 #Basic KK Algorithm; takes list and prints the residue; 
 #Be aware that this function alters the original list;
 #make copy of original list if you'll need it again
+def negator(numlist, length):
+	for i in xrange(length):
+		numlist[i] = -numlist[i]
+	return numlist; 
+
+def kar_karp(numlist):
+	length = len(numlist)
+	numlist = negator(numlist,length)
+	for i in rxange(length):
+		numlist = heapq.heapify(numlist)
+		big = - heapq.heappop(numlist)
+		small = - heapq.heappop(numlist)
+		diff = big - small 
+		numlist.heapq.heappush(numlist, -diff)
+		numlist.heapq.heappush(numlist, 0)
+	res = numlist.heapq.heappop(numlist)
+	if res < 0:
+		return -res
+	else:
+		return res
+
+def kar_karp_test(numlist):
+	length = len(numlist)
+	numlist = negator(numlist, length)
+	for _ in xrange(length):
+		heap = heapq.heapify(numlist)
+		big = - heapq.heappop(heap)
+		small = - heapq.heappop(numlist)
+		diff = big - small 
+		numlist.heapq.heappush(numlist, -diff)
+		numlist.heapq.heappush(numlist, 0)
+	res = numlist.heapq.heappop(numlist)
+	print numlist
+	if res < 0:
+		print -res
+		return -res
+	else:
+		print res 
+		return res 
+'''
 def kar_karp(numlist):
 	length = len(numlist)
 	for i in range(length):
@@ -42,6 +83,7 @@ def kar_karp_test(numlist):
 		numlist[length-1] = diff 
 		numlist[length-2] = 0
 	print numlist[length-1]
+'''
 #Function for running random moves
 #Alters original list. 
 #Be caureful to make copy if you need original list
@@ -382,7 +424,7 @@ def main():
 	sum_hc_part = 0
 	sum_sa_rand = 0
 	sum_sa_part = 0
-	for i in xrange(0,10):
+	for i in xrange(0,100):
 		randlist = gen_list(1000000000000, 100, []);
 		print("****************** TEST %d ******************\n********************************************" % (i))
 		start_time = timeit.default_timer()

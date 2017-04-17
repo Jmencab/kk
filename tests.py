@@ -5,7 +5,7 @@ import kk
 example_one = [10,8,7,6,5]
 example_two = [4,2,3,2,1]
 example_three = [6,2,3,2,1]
-'''
+
 print "*******************************\n*******************************"
 print "Test 1.0. KK with 10,8,7,6,5\nExpect Residual 2"
 kk.kar_karp_test(example_one)
@@ -14,6 +14,7 @@ kk.kar_karp_test(example_two)
 print "Test 1.2. KK with 10,8,7,6,5\nExpect Residual 0"
 kk.kar_karp_test(example_three)
 print "*******************************\n*******************************"
+'''
 #test the random number generator
 rand_prob = kk.gen_list([])
 print "Test 2.0. Run numlist generator. Expect 100 random numbers:"
@@ -81,6 +82,7 @@ print "*******************************\n"
 print kk.rep_rand_rand_test(example_three)
 print "*******************************\n"
 '''
+'''
 example_one = [10,8,7,6,5]
 example_two = [4,2,3,2,1]
 example_three = [6,2,3,2,1]
@@ -112,3 +114,4 @@ print "*******************************\n*******************************"
 print "*******************************\n"
 #print kk.hill_climbing_rand_test(example_four)
 print "*******************************\n"
+'''
