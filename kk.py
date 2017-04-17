@@ -25,15 +25,15 @@ def negator(numlist, length):
 
 def kar_karp(numlist):
 	length = len(numlist)
-	numlist = negator(numlist,length)
+	neg_numlist = negator(numlist,length)
 	for i in rxange(length):
-		numlist = heapq.heapify(numlist)
-		big = - heapq.heappop(numlist)
-		small = - heapq.heappop(numlist)
+		heapq.heapify(neg_numlist)
+		big = - heapq.heappop(neg_numlist)
+		small = - heapq.heappop(neg_numlist)
 		diff = big - small 
-		numlist.heapq.heappush(numlist, -diff)
-		numlist.heapq.heappush(numlist, 0)
-	res = numlist.heapq.heappop(numlist)
+		numlist.heapq.heappush(neg_numlist, -diff)
+		numlist.heapq.heappush(neg_numlist, 0)
+	res = heapq.heappop(neg_numlist)
 	if res < 0:
 		return -res
 	else:
@@ -41,16 +41,16 @@ def kar_karp(numlist):
 
 def kar_karp_test(numlist):
 	length = len(numlist)
-	numlist = negator(numlist, length)
+	neg_numlist = negator(numlist, length)
 	for _ in xrange(length):
-		heap = heapq.heapify(numlist)
-		big = - heapq.heappop(heap)
-		small = - heapq.heappop(numlist)
+		heapq.heapify(neg_numlist)
+		big = - heapq.heappop(neg_numlist)
+		small = - heapq.heappop(neg_numlist)
 		diff = big - small 
-		numlist.heapq.heappush(numlist, -diff)
-		numlist.heapq.heappush(numlist, 0)
-	res = numlist.heapq.heappop(numlist)
-	print numlist
+		heapq.heappush(neg_numlist, -diff)
+		heapq.heappush(neg_numlist, 0)
+	res = heapq.heappop(neg_numlist)
+	print neg_numlist
 	if res < 0:
 		print -res
 		return -res
